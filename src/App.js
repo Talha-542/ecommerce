@@ -24,7 +24,7 @@
 
 import React from 'react'
 import Header from './components/Header/Header'
-import Home from './components/Home/Home'
+import Home from './components/home/Home'
 import Products from './components/Products/Products'
 import Cart from './components/Cart/Cart'
 import Login from './components/Login/Login'
