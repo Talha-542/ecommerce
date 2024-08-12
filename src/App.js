@@ -1,8 +1,7 @@
 
 import React from 'react';
 import { useSelector } from 'react-redux';
-import Login from './components/Login';
-import './components/Login.css'; 
+import Login from './components/Login/Login';
 
 function App() {
   const isAuthenticated = useSelector((state) => state.auth.isAuthenticated);
